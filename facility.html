@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Website Design</title>
+    <link rel="stylesheet" href="css/template3.css"/>
+    <link rel="stylesheet" href="css/font-awesome.min.css"
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Poppins:wght@100;200;300;400;600;700&family=Quicksand:wght@300;500;600;700&family=Roboto:wght@100;300;400;500;700;900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,800&display=swap"
+ rel="stylesheet">
+</head>
+<body>
+    <!--about section-->
+ <section class="sub-header">
+     <nav>
+        <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="facility.html">Facilities</a></li>
+                    <li><a href="blog.html">Placements</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <i class="fa fa-bars" onclick="showMenu()"></i>
+                </nav>
+                <h1>Our Facilities</h1>
+    </section>
+   
+    <!-- ------facilities------- -->
+    <section class="facilities">
+        <h1></h1>
+        <p>Our institute has various facilities as:</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/gym.jpg" alt="">
+                <h3>World Class Gymnasium</h3>
+                <p>Gymnastics is a sport that includes physical exercises requiring balance, strength, flexibility, agility, coordination, dedication and endurance.</p>
+            </div>
+            <div class="facilities-col">
+             <img src="images/park.jpg" alt="">
+             <h3>Open Air Theatre & Park</h3>
+             <p>Open Air Theatre is venue for many events like UTKANSH, Tech Fests, International Conference, movie shows etc.</p>
+         </div>
+         <div class="facilities-col">
+             <img src="images/snaker.jpg" alt="">
+             <h3>Tasty and Healthy Food</h3>
+             <p>We have various cafeterias like The Snakers, Night canteen, Yadav Canteen, campus cafe ,etc.</p>
+             
+         </div>
+        </div>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/library.png" alt="">
+                <h3>World Class Library</h3>
+                <p>Our institue has a very good library with an very nice and silent environment and we are upgrading it.</p>
+            </div>
+            <div class="facilities-col">
+             <img src="images/basketball.png" alt="">
+             <h3>Play Grounds</h3>
+             <p>Our institute has playgrounds for almost all sports including football, cricket, basketball, tennis, volleyball, etc.</p>
+         </div>
+         <div class="facilities-col">
+             <img src="images/sc.jpg" alt="">
+             <h3>Student Community Centre</h3>
+             <p>student community centre has a gym with latest equipments and place for table tennis and chess and other indoor games.</p>
+         </div>
+        </div>
+     </section>
+
+
+<!--footer-->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Designed By: Jasdeep Singh, Deepak Singh <br>Abhishek Kumar, Milanpreet Singh</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+</section>
+
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

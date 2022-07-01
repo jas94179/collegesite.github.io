@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Website Design</title>
+    <link rel="stylesheet" href="css/template3.css"/>
+    <link rel="stylesheet" href="css/font-awesome.min.css"
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Poppins:wght@100;200;300;400;600;700&family=Quicksand:wght@300;500;600;700&family=Roboto:wght@100;300;400;500;700;900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,800&display=swap"
+ rel="stylesheet">
+</head>
+<body>
+    <!--about section-->
+ <section class="sub-header">
+     <nav>
+        <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+        <h3>   NIT JALANDHAR </h3>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="facility.html">Facilities</a></li>
+                    <li><a href="blog.html">Placements</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <i class="fa fa-bars" onclick="showMenu()"></i>
+                </nav>
+                <h1>Our Courses</h1>
+    </section>
+    <section class="course">
+        <h1>Programmes of Study</h1>
+        <p>The Institute offers following Undergraduate, Postgraduate and Research Programmes:</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Undergraduate Programmes</h3>
+                
+
+                    <li>Bio Technology</li>
+                    <li>Chemical Engineering</li>
+                   <li >Civil Engineering</li>
+                    <li>Computer Science and Engineering</li>
+                    <li>Electrical Engineering</li>
+                    <li>Electronics and Communication Engineering</li>
+                    <li>Industrial and Production Engineering</li>
+                    <li>Information Technology </li>
+                    <li>Instrumentation and Control Engineering</li>
+                    <li>Mechanical Engineering</li>
+                    <li>Textile Technology</li>
+
+                    
+                    
+            </div>
+            <div class="course-col">
+                <h3>Post Graduate Programmes</h3>
+                
+                    <li>Bio Technology</li>
+                    <li>Chemical Engineering</li>
+                    <li>Computer Science and Engineering</li>
+                    <li>Computer Science and Engineering (Information Security)</li>
+                    <li>Control and Instrumentation Engineering</li>
+                    <li>Design Engineering</li>
+                    <li>Thermal Engineering</li>
+                    <li>Electronics and Communication Engineering</li>
+                    <li>VLSI Design</li>
+                    <li>Geotechnical and Geo-Environmental Engineering</li>
+                    <li>Renewable Energy</li>
+                    <li>Structural and Construction Engineering</li>
+                    <li>Industrial Engineering</li>
+                    <li>Manufacturing Technology</li>
+                    <li>Textile Engineering and Management</li>
+                                                                    
+            </div>
+            <div class="course-col">
+                <h3>PG Diploma in Engineering Programmes</h3>
+                    <li> Chemical Engineering</li>
+                    <li>Computer Science and Engineering</li>
+                    <li>Electronics and Communication Engineering</li>
+                    <li>Instrumentation and Control Engineering</li>
+                    <li>Structural and Construction Engineering</li>
+                    <li>Geotechnical and Geo Environmental Engineering</li>
+                    <li>Textile Engineering and  Management</li>
+                     <li>Design Engineering</li>
+                    <li>Thermal Engineering</li>
+                    <li>Industrial Engineering</li>
+                                                                  
+            </div>
+        </div>
+    </section>
+
+
+<!--footer-->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Designed By: Jasdeep Singh, Deepak Singh <br>Abhishek Kumar, Milanpreet Singh</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+</section>
+
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
